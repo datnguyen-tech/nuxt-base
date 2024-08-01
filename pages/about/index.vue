@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-red-100">{{ name }}23424</h1>
+    <h1 class="test text-red-100">{{ name }}23424</h1>
     <div v-if="status === 'pending'">Loading...</div>
     <div v-if="status === 'success'">Abount {{ a }} {{ data }}</div>
     <button @click="redirect">Click</button>
